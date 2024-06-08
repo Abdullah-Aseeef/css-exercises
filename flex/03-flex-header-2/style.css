@@ -9,11 +9,25 @@ body {
 }
 
 .header {
+  display: flex;
+  margin: 8px;
+  padding: 8px;
+  justify-content: center;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
 }
-
+div {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* justify-content: center; */
+  gap: 16px;
+}
+div.empty {
+  margin-left: auto;
+  margin-right: auto;
+}
 .profile-image {
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
@@ -27,6 +41,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  /* margin: 8px; */
 }
 
 button {
@@ -35,6 +50,7 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  /* align-self: center; */
 }
 
 a {
@@ -44,5 +60,10 @@ a {
 }
 
 ul {
+  display: flex;
+  gap: 16px;
+   /* */ 
+   margin: 0;
+   padding: 0;
   list-style-type: none;
 }
